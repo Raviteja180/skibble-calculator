@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+  </head>
+  <body>
+    <div class="parent">
+      <div class="inputs">
+        <div class="num1">
+            <label for="num1">Num1<input type="text" id="num1" /></label>
+          </div>
+          <div class="num2">
+            <label for="num2">Num2<input type="text" id="num2" /></label>
+          </div>
+          <div class="result">
+            <label for="result">Result<input type="text" id="result" /></label>
+          </div>
+      </div>
+      <div class="operations">
+        <button onclick="add()">+</button>
+        <button onclick="sub()">-</button>
+        <button onclick="mul()">X</button>
+        <button onclick="div()">/</button>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
